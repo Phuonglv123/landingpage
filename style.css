@@ -1,0 +1,652 @@
+body {
+    color: white;
+}
+
+h4 {
+    color: #65cbef;
+}
+
+.title {
+    text-align: center;
+    padding: 20px;
+}
+
+.title span {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+.banner {
+    background-color: #19161f;
+    color: #fff;
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
+}
+
+.banner .outline {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    border: 1px dashed #326983;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    animation: turning_cw 5s infinite;
+}
+
+.banner .centerline {
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+    border: 1px dashed #326983;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .middleline {
+    width: 310px;
+    height: 310px;
+    border-radius: 50%;
+    border: 1px dashed #326983;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .lastline {
+    width: 290px;
+    height: 290px;
+    border-radius: 50%;
+    border: 1px dashed #326983;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .title-banner {
+    width: 62%;
+}
+
+.banner .title-banner span {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    font-family: "Fira Code", monospace;
+}
+
+.banner .button-banner {
+    margin-top: 10px;
+}
+
+.banner .button-banner button {
+    border-radius: 100rem;
+    padding: 1rem;
+    font-family: "Fira Code", monospace;
+    font-size: 1rem;
+    padding: 1.5rem 6rem;
+    color: black;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 2px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #78e4ff, #ff48fa);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+}
+
+.banner .button-banner button:hover {
+    box-shadow: none;
+    color: white;
+}
+
+.banner .label-button span {
+    font-family: "Fira Code", monospace;
+    letter-spacing: 1.5px;
+    font-size: 12px;
+}
+
+.container-div {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #19161f;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 1px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+    height: 76px;
+}
+
+.navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #3acfd5 !important;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+}
+
+#about {
+    background-color: #19161f;
+}
+
+#about .title {
+    text-align: center;
+    padding: 20px;
+}
+
+#about .title span {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+
+#about .img-about {
+    position: relative;
+    text-align: left;
+}
+
+#about .img-about .content-about {
+    position: absolute;
+    top: 56%;
+    width: 48%;
+    left: 28%;
+}
+
+#services {
+    background-color: #19161f;
+    position: relative;
+}
+
+#services .item-service {
+    color: white;
+}
+
+#services .item-service img {
+    width: 35%;
+}
+
+#services .item-service span {
+    font-size: 12px;
+    line-height: 1 !important;
+}
+
+#exchange {
+    background-color: #19161f;
+}
+
+#wallet {
+    background-image: url("././././images/wallet.png");
+}
+
+#wallet button {
+    border-radius: 100rem;
+    padding: 1rem;
+    font-family: "Fira Code", monospace;
+    font-size: 14px;
+    padding: 1.5rem 6rem;
+    color: black;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 2px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #78e4ff, #ff48fa);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+    width: 40%;
+}
+
+#wallet button:hover {
+    box-shadow: none;
+    color: white;
+}
+
+#roadmap .list-item {
+    text-align: center;
+}
+
+#roadmap .list-item img {
+    margin-top: -20px;
+}
+
+#roadmap .list-item ul {
+    padding-right: 40px !important;
+}
+
+#roadmap .list-item ul li {
+    list-style-type: none;
+}
+
+#masternode button {
+    border-radius: 100rem;
+    padding: 1rem;
+    font-family: "Fira Code", monospace;
+    font-size: 14px;
+    padding: 1.5rem 6rem;
+    color: black;
+    box-shadow: 0 0 6px 0 rgba(157, 96, 212, 0.5);
+    border: solid 2px transparent;
+    background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(255, 255, 255, 0)), linear-gradient(101deg, #78e4ff, #ff48fa);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    box-shadow: 2px 1000px 1px #fff inset;
+    width: 100%;
+}
+
+#masternode button:hover {
+    box-shadow: none;
+    color: white;
+}
+
+#masternode ul li {
+    list-style-type: none;
+    text-align: center;
+}
+
+#masternode ul li img {
+    width: 80%;
+}
+
+footer {
+    background-color: #19161f;
+}
+
+footer #footer {
+    text-align: left;
+}
+
+footer #footer .footer-title {
+    text-align: center;
+}
+
+footer #footer .footer-title h4 {
+    color: #65cbef;
+}
+
+footer #footer .footer-link ul li {
+    list-style-type: none;
+}
+
+@keyframes particleAnimation {
+    from {
+        left: -100px;
+    }
+    to {
+        left: calc(100% + 10px);
+    }
+}
+
+footer #footer .p {
+    position: fixed;
+    left: 0px;
+    top: 50px;
+    width: 1px;
+    height: 1px;
+    background-color: white;
+    position: fixed;
+    animation-name: particleAnimation;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+footer #footer .p::before, footer #footer .p.shooting_star::after {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 100px;
+    right: 1px;
+    top: 0px;
+    height: 1px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 0.4) 100%);
+}
+
+footer #footer .p-1 {
+    animation-duration: 10s;
+}
+
+footer #footer .p-2 {
+    animation-duration: 5s;
+    top: 60%;
+}
+
+footer #footer .p-3 {
+    animation-duration: 20s;
+    top: 90%;
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    }
+}
+
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-4 {
+        text-align: center;
+        margin: 25px 0;
+    }
+
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+    }
+}
+
+.night {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: rotateZ(45deg);
+}
+
+.shooting_star, .shooting_star::after {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 2px;
+    background: linear-gradient(-45deg, #5f91ff, rgba(0, 0, 255, 0));
+    border-radius: 999px;
+    filter: drop-shadow(0 0 6px #699bff);
+    animation: tail 4000ms ease-in-out infinite, shooting 4000ms ease-in-out infinite;
+}
+
+.shooting_star::before, .shooting_star::after {
+    content: "";
+    position: absolute;
+    top: calc(50% - 1px);
+    right: 0;
+    height: 2px;
+    background: linear-gradient(-45deg, rgba(0, 0, 255, 0), #5f91ff, rgba(0, 0, 255, 0));
+    transform: translateX(50%) rotateZ(45deg);
+    border-radius: 100%;
+    animation: shining 4000ms ease-in-out infinite;
+}
+
+.shooting_star::after {
+    transform: translateX(50%) rotateZ(-45deg);
+}
+
+.shooting_star:nth-child(1), .shooting_star:nth-child(1)::after {
+    top: calc(50% - -161px);
+    left: calc(50% - 3px);
+    animation-delay: 7857ms;
+}
+
+.shooting_star:nth-child(1)::before, .shooting_star:nth-child(1)::after {
+    animation-delay: 7857ms;
+}
+
+.shooting_star:nth-child(2), .shooting_star:nth-child(2)::after {
+    top: calc(50% - 58px);
+    left: calc(50% - 8px);
+    animation-delay: 818ms;
+}
+
+.shooting_star:nth-child(2)::before, .shooting_star:nth-child(2)::after {
+    animation-delay: 818ms;
+}
+
+.shooting_star:nth-child(3), .shooting_star:nth-child(3)::after {
+    top: calc(50% - 165px);
+    left: calc(50% - 187px);
+    animation-delay: 1577ms;
+}
+
+.shooting_star:nth-child(3)::before, .shooting_star:nth-child(3)::after {
+    animation-delay: 1577ms;
+}
+
+.shooting_star:nth-child(4), .shooting_star:nth-child(4)::after {
+    top: calc(50% - -157px);
+    left: calc(50% - 117px);
+    animation-delay: 6164ms;
+}
+
+.shooting_star:nth-child(4)::before, .shooting_star:nth-child(4)::after {
+    animation-delay: 6164ms;
+}
+
+.shooting_star:nth-child(5), .shooting_star:nth-child(5)::after {
+    top: calc(50% - -94px);
+    left: calc(50% - 294px);
+    animation-delay: 5111ms;
+}
+
+.shooting_star:nth-child(5)::before, .shooting_star:nth-child(5)::after {
+    animation-delay: 5111ms;
+}
+
+.shooting_star:nth-child(6), .shooting_star:nth-child(6)::after {
+    top: calc(50% - 43px);
+    left: calc(50% - 152px);
+    animation-delay: 236ms;
+}
+
+.shooting_star:nth-child(6)::before, .shooting_star:nth-child(6)::after {
+    animation-delay: 236ms;
+}
+
+.shooting_star:nth-child(7), .shooting_star:nth-child(7)::after {
+    top: calc(50% - -180px);
+    left: calc(50% - 25px);
+    animation-delay: 3233ms;
+}
+
+.shooting_star:nth-child(7)::before, .shooting_star:nth-child(7)::after {
+    animation-delay: 3233ms;
+}
+
+.shooting_star:nth-child(8), .shooting_star:nth-child(8)::after {
+    top: calc(50% - 54px);
+    left: calc(50% - 55px);
+    animation-delay: 6854ms;
+}
+
+.shooting_star:nth-child(8)::before, .shooting_star:nth-child(8)::after {
+    animation-delay: 6854ms;
+}
+
+.shooting_star:nth-child(9), .shooting_star:nth-child(9)::after {
+    top: calc(50% - -151px);
+    left: calc(50% - 240px);
+    animation-delay: 6904ms;
+}
+
+.shooting_star:nth-child(9)::before, .shooting_star:nth-child(9)::after {
+    animation-delay: 6904ms;
+}
+
+.shooting_star:nth-child(10), .shooting_star:nth-child(10)::after {
+    top: calc(50% - 9px);
+    left: calc(50% - 219px);
+    animation-delay: 5852ms;
+}
+
+.shooting_star:nth-child(10)::before, .shooting_star:nth-child(10)::after {
+    animation-delay: 5852ms;
+}
+
+.shooting_star:nth-child(11), .shooting_star:nth-child(11)::after {
+    top: calc(50% - 48px);
+    left: calc(50% - 133px);
+    animation-delay: 3151ms;
+}
+
+.shooting_star:nth-child(11)::before, .shooting_star:nth-child(11)::after {
+    animation-delay: 3151ms;
+}
+
+.shooting_star:nth-child(12), .shooting_star:nth-child(12)::after {
+    top: calc(50% - -137px);
+    left: calc(50% - 279px);
+    animation-delay: 1950ms;
+}
+
+.shooting_star:nth-child(12)::before, .shooting_star:nth-child(12)::after {
+    animation-delay: 1950ms;
+}
+
+.shooting_star:nth-child(13), .shooting_star:nth-child(13)::after {
+    top: calc(50% - -112px);
+    left: calc(50% - 277px);
+    animation-delay: 9635ms;
+}
+
+.shooting_star:nth-child(13)::before, .shooting_star:nth-child(13)::after {
+    animation-delay: 9635ms;
+}
+
+.shooting_star:nth-child(14), .shooting_star:nth-child(14)::after {
+    top: calc(50% - -48px);
+    left: calc(50% - 266px);
+    animation-delay: 9037ms;
+}
+
+.shooting_star:nth-child(14)::before, .shooting_star:nth-child(14)::after {
+    animation-delay: 9037ms;
+}
+
+.shooting_star:nth-child(15), .shooting_star:nth-child(15)::after {
+    top: calc(50% - 65px);
+    left: calc(50% - 141px);
+    animation-delay: 8007ms;
+}
+
+.shooting_star:nth-child(15)::before, .shooting_star:nth-child(15)::after {
+    animation-delay: 8007ms;
+}
+
+.shooting_star:nth-child(16), .shooting_star:nth-child(16)::after {
+    top: calc(50% - -171px);
+    left: calc(50% - 203px);
+    animation-delay: 6184ms;
+}
+
+.shooting_star:nth-child(16)::before, .shooting_star:nth-child(16)::after {
+    animation-delay: 6184ms;
+}
+
+.shooting_star:nth-child(17), .shooting_star:nth-child(17)::after {
+    top: calc(50% - -77px);
+    left: calc(50% - 294px);
+    animation-delay: 3235ms;
+}
+
+.shooting_star:nth-child(17)::before, .shooting_star:nth-child(17)::after {
+    animation-delay: 3235ms;
+}
+
+.shooting_star:nth-child(18), .shooting_star:nth-child(18)::after {
+    top: calc(50% - -174px);
+    left: calc(50% - 270px);
+    animation-delay: 9005ms;
+}
+
+.shooting_star:nth-child(18)::before, .shooting_star:nth-child(18)::after {
+    animation-delay: 9005ms;
+}
+
+.shooting_star:nth-child(19), .shooting_star:nth-child(19)::after {
+    top: calc(50% - -50px);
+    left: calc(50% - 150px);
+    animation-delay: 4497ms;
+}
+
+.shooting_star:nth-child(19)::before, .shooting_star:nth-child(19)::after {
+    animation-delay: 4497ms;
+}
+
+.shooting_star:nth-child(20), .shooting_star:nth-child(20)::after {
+    top: calc(50% - 31px);
+    left: calc(50% - 66px);
+    animation-delay: 7273ms;
+}
+
+.shooting_star:nth-child(20)::before, .shooting_star:nth-child(20)::after {
+    animation-delay: 7273ms;
+}
+
+@keyframes tail {
+    0% {
+        width: 0;
+    }
+    30% {
+        width: 100px;
+    }
+    100% {
+        width: 0;
+    }
+}
+
+@keyframes shining {
+    0% {
+        width: 0;
+    }
+    50% {
+        width: 30px;
+    }
+    100% {
+        width: 0;
+    }
+}
+
+@keyframes shooting {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(300px);
+    }
+}
+
+@keyframes sky {
+    0% {
+        transform: rotate(45deg);
+    }
+    100% {
+        transform: rotate(405deg);
+    }
+}
+
+@-webkit-keyframes turning_cw {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+/*# sourceMappingURL=style.css.map */
