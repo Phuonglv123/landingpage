@@ -1,11 +1,30 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
+  #logo img {
+    width: 25%;
+  }
+
   .banner .title-banner {
     width: 62%;
     margin: 0 auto;
   }
   .banner .title-banner span {
     font-size: 31px;
+  }
+  .banner .text-banner {
+    margin-bottom: 40px;
+    margin-top: -20px;
+  }
+
+  #about .img-about img {
+    width: 100%;
+  }
+  #about .img-about .content-about {
+    padding: 2em;
+  }
+
+  #specifications img {
+    width: 100%;
   }
 
   #masternode ul li {
@@ -19,12 +38,19 @@
     font-size: 10px;
   }
 
-  #wallet {
+  #wallet img {
     display: none;
+  }
+  #wallet .list-button {
+    position: unset;
   }
 
   #exchange {
     display: none;
+  }
+
+  #roadmap .img-roadmap {
+    width: 100%;
   }
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
