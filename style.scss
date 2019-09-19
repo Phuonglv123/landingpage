@@ -1,5 +1,5 @@
 $primaryFont: 'Fira Code', monospace;
-$primaryColor: #19161f;
+$primaryColor: #000000;
 $primaryFontSize: 14px;
 $primaryTitle: 17px;
 $shooting-time: 4000ms;
@@ -38,6 +38,10 @@ h4 {
   padding: 100px 25px;
   font-family: Montserrat, sans-serif;
 
+  .button-banner {
+    text-align: center;
+  }
+
   .outline {
     width: 350px;
     height: 350px;
@@ -47,6 +51,7 @@ h4 {
     justify-content: center;
     align-items: center;
     animation: spin 10s infinite linear;
+
     img {
       animation: spin 10s infinite reverse linear;
       width: 100%;
@@ -100,6 +105,7 @@ h4 {
       font-weight: bold;
       color: white;
       font-family: $primaryFont;
+      text-align: left;
 
     }
 
@@ -164,10 +170,13 @@ h4 {
   }
 
   .label-button {
+    text-align: center;
+
     span {
       font-family: $primaryFont;
       letter-spacing: 1.5px;
       font-size: 12px;
+      text-align: left;
     }
   }
 }
@@ -265,7 +274,7 @@ h4 {
 }
 
 #wallet {
-  background-image: url("././././images/wallet.png");
+  padding-top: 10px;
 
   .list-button {
     position: absolute;
@@ -601,5 +610,57 @@ footer {
   }
   100% {
     -webkit-transform: rotate(360deg);
+  }
+}
+
+.image-logo-banner {
+  position: absolute;
+  top: 34%;
+  right: 41%;
+
+  img {
+    width: 60%;
+  }
+}
+
+.image-circle {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  border: 2px dashed #3acfd5;
+  padding: 10px;
+  animation: spin 8s infinite linear;
+  margin: 0 auto;
+  position: relative;
+
+  &:before {
+    content: " ";
+    position: absolute;
+    z-index: -1;
+    top: -30px;
+    left: -30px;
+    right: -30px;
+    bottom: -30px;
+    border: 2px dashed #3acfd5;
+    border-radius: 50%;
+  }
+
+  img {
+    animation: spin1 8s reverse linear;
+    width: 100%;
+    border-radius: 50%;
+  }
+}
+
+
+@keyframes spin {
+  100% {
+    transform: rotate(1turn);
+  }
+}
+
+@keyframes spin1 {
+  100% {
+    transform: rotate(2turn);
   }
 }
